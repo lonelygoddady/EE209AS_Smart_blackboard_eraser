@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Project_GUI_v2.ui'
 #
-# Created: Mon Dec  5 13:35:02 2016
+# Created: Sun Nov 20 17:53:48 2016
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -90,15 +90,15 @@ class Ui_MainWindow(object):
         self.Save.setMaximumSize(QtCore.QSize(160, 16777215))
         self.Save.setObjectName(_fromUtf8("Save"))
         self.verticalLayout.addWidget(self.Save)
-        self.Calibrate = QtGui.QPushButton(self.centralwidget)
+        self.Split = QtGui.QPushButton(self.centralwidget)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.Calibrate.sizePolicy().hasHeightForWidth())
-        self.Calibrate.setSizePolicy(sizePolicy)
-        self.Calibrate.setMaximumSize(QtCore.QSize(160, 16777215))
-        self.Calibrate.setObjectName(_fromUtf8("Calibrate"))
-        self.verticalLayout.addWidget(self.Calibrate)
+        sizePolicy.setHeightForWidth(self.Split.sizePolicy().hasHeightForWidth())
+        self.Split.setSizePolicy(sizePolicy)
+        self.Split.setMaximumSize(QtCore.QSize(160, 16777215))
+        self.Split.setObjectName(_fromUtf8("Split"))
+        self.verticalLayout.addWidget(self.Split)
         spacerItem1 = QtGui.QSpacerItem(20, 20, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Preferred)
         self.verticalLayout.addItem(spacerItem1)
         self.Clear = QtGui.QPushButton(self.centralwidget)
@@ -130,7 +130,7 @@ class Ui_MainWindow(object):
         self.Cancel.setText(_translate("MainWindow", "Cancel Select", None))
         self.Update.setText(_translate("MainWindow", "Update Content", None))
         self.Save.setText(_translate("MainWindow", "Save Content", None))
-        self.Calibrate.setText(_translate("MainWindow", "Calibrate", None))
+        self.Split.setText(_translate("MainWindow", "Split", None))
         self.Clear.setText(_translate("MainWindow", "Clear Content", None))
         self.toolBar.setWindowTitle(_translate("MainWindow", "toolBar", None))
 

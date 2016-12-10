@@ -130,7 +130,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="Calibrate">
+           <widget class="QPushButton" name="Split">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -144,7 +144,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Calibrate</string>
+             <string>Split</string>
             </property>
            </widget>
           </item>
